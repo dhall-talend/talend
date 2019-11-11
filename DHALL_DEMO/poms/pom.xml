@@ -10,13 +10,18 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/joblets/crm_0.1</module>
+    <module>jobs/process/Self_Service/self_service_tds_tdp_0.1</module>
+    <module>jobs/joblets/twitter_0.1</module>
+    <module>jobs/process/Self_Service/self_service_ds_resolutions_0.1</module>
+    <module>jobs/joblets/marketing_leads_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DHALL_DEMO</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
