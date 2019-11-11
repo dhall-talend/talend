@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmi:version="2.0">
+  <model:JobletProcess defaultContext="Default" jobType="Standard">
+    <context confirmationNeeded="false" name="Default"/>
+    <parameters>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" show="false" value="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" show="false" value="25000"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Users/dhall/Desktop/Talend Studio/Talend-Studio-20181026_1147-V7.1.1/workspace/in.csv&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+      <routinesParameter id="_ExzTsIGUEemkmP1P667bVQ" name="DQTechnical"/>
+      <routinesParameter id="_Ev_84IGUEemkmP1P667bVQ" name="DataMasking"/>
+      <routinesParameter id="_Ex1v8IGUEemkmP1P667bVQ" name="DataOperation"/>
+      <routinesParameter id="_ExqJwIGUEemkmP1P667bVQ" name="DataQualityDependencies"/>
+      <routinesParameter id="_ExmfYIGUEemkmP1P667bVQ" name="DataQuality"/>
+      <routinesParameter id="_ExwQYIGUEemkmP1P667bVQ" name="DqStringHandling"/>
+      <routinesParameter id="_Ex4zQIGUEemkmP1P667bVQ" name="Mathematical"/>
+      <routinesParameter id="_Ex72kIGUEemkmP1P667bVQ" name="Numeric"/>
+      <routinesParameter id="_Ex-S0IGUEemkmP1P667bVQ" name="Relational"/>
+      <routinesParameter id="_EyZJkIGUEemkmP1P667bVQ" name="SQLike"/>
+      <routinesParameter id="_EyBWIIGUEemkmP1P667bVQ" name="StringHandling"/>
+      <routinesParameter id="_EyDyYIGUEemkmP1P667bVQ" name="TalendDataGenerator"/>
+      <routinesParameter id="_EyGOoIGUEemkmP1P667bVQ" name="TalendDate"/>
+      <routinesParameter id="_EyWGQIGUEemkmP1P667bVQ" name="TalendStringUtil"/>
+      <routinesParameter id="_EyIq4IGUEemkmP1P667bVQ" name="TalendString"/>
+    </parameters>
+    <node componentName="tGoogleAddressRow" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="224">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tGoogleAddressRow_1"/>
+      <elementParameter field="TEXT" name="PAUSE" value="1"/>
+      <elementParameter field="PREV_COLUMN_LIST" name="ADDRESS_COLUMN" value="Full_Address"/>
+      <elementParameter field="TEXT" name="API_KEY" value="&quot;AIzaSyAoNMq2-RGNji17FdM9BqEYSuaqoINiCek&quot;"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tGoogleAddressRow_1">
+        <column comment="" key="true" length="-1" name="Customer_ID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="50" name="Number" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="AccountNumber"/>
+        </column>
+        <column comment="" key="false" length="100" name="Name" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Name"/>
+        </column>
+        <column comment="" key="false" length="50" name="Industry" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Industry"/>
+        </column>
+        <column comment="" key="false" length="250" name="Full_Address" nullable="true" originalLength="250" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="BillingStreet"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Name" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Name"/>
+        </column>
+        <column comment="" key="false" length="50" name="Contact_Phone_Number" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Phone"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Email_Address" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Email"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Job_Title" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Title"/>
+        </column>
+        <column comment="not just postal addresses, but any way to geographically name a location" key="false" length="0" name="formatted_address" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short street number" key="false" length="0" name="street_number_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long street number" defaultValue="" key="false" length="0" name="street_number_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short route" defaultValue="" key="false" length="0" name="route_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long route" defaultValue="" key="false" length="0" name="route_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short locality" defaultValue="" key="false" length="0" name="locality_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long locality" defaultValue="" key="false" length="0" name="locality_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short sub locality" defaultValue="" key="false" length="0" name="sublocality_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long sub locality" defaultValue="" key="false" length="0" name="sublocality_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short admin area level 1" defaultValue="" key="false" length="0" name="adm_area1_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long admin area level 1" defaultValue="" key="false" length="0" name="adm_area1_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short admin area level 2" defaultValue="" key="false" length="0" name="adm_area2_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long admin area level 2" defaultValue="" key="false" length="0" name="adm_area2_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short admin area level 3" defaultValue="" key="false" length="0" name="adm_area3_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long admin area level 3" defaultValue="" key="false" length="0" name="adm_area3_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short country name" defaultValue="" key="false" length="0" name="country_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long country name" defaultValue="" key="false" length="0" name="country_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short postal code" defaultValue="" key="false" length="0" name="postal_code_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long postal code" defaultValue="" key="false" length="0" name="postal_code_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="location type" defaultValue="" key="false" length="0" name="location_type" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="partial match type" defaultValue="" key="false" length="0" name="partial_match" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="latitude" defaultValue="" key="false" length="20" name="lat" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+        <column comment="longitude" defaultValue="" key="false" length="20" name="lng" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+        <column comment="status" defaultValue="" key="false" length="0" name="status" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="international phone number" defaultValue="" key="false" length="0" name="international_phone_number" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tStandardizePhoneNumber" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="704" posY="224">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tStandardizePhoneNumber_1"/>
+      <elementParameter field="PREV_COLUMN_LIST" name="PHONE_NUMBER" value="Contact_Phone_Number"/>
+      <elementParameter field="PREV_COLUMN_LIST" name="COUNTRY_CODE" show="false" value="Customer_ID"/>
+      <elementParameter field="CHECK" name="COUNTRY_CUSTOME" value="true"/>
+      <elementParameter field="TEXT" name="COUNTRY_CODE_CUSTOME" value="&quot;US&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="PHONE_NUMBER_FORMAT" value="E164"/>
+      <elementParameter field="CHECK" name="AVOID_COMPARISON" value="false"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tStandardizePhoneNumber_1">
+        <column comment="" key="true" length="-1" name="Customer_ID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="50" name="Number" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="AccountNumber"/>
+        </column>
+        <column comment="" key="false" length="100" name="Name" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Name"/>
+        </column>
+        <column comment="" key="false" length="50" name="Industry" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Industry"/>
+        </column>
+        <column comment="" key="false" length="250" name="Full_Address" nullable="true" originalLength="250" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="BillingStreet"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Name" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Name"/>
+        </column>
+        <column comment="" key="false" length="50" name="Contact_Phone_Number" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Phone"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Email_Address" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Email"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Job_Title" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Title"/>
+        </column>
+        <column comment="not just postal addresses, but any way to geographically name a location" key="false" length="0" name="formatted_address" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short street number" key="false" length="0" name="street_number_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long street number" defaultValue="" key="false" length="0" name="street_number_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short route" defaultValue="" key="false" length="0" name="route_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long route" defaultValue="" key="false" length="0" name="route_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short locality" defaultValue="" key="false" length="0" name="locality_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long locality" defaultValue="" key="false" length="0" name="locality_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short sub locality" defaultValue="" key="false" length="0" name="sublocality_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long sub locality" defaultValue="" key="false" length="0" name="sublocality_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short admin area level 1" defaultValue="" key="false" length="0" name="adm_area1_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long admin area level 1" defaultValue="" key="false" length="0" name="adm_area1_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short admin area level 2" defaultValue="" key="false" length="0" name="adm_area2_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long admin area level 2" defaultValue="" key="false" length="0" name="adm_area2_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short admin area level 3" defaultValue="" key="false" length="0" name="adm_area3_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long admin area level 3" defaultValue="" key="false" length="0" name="adm_area3_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short country name" defaultValue="" key="false" length="0" name="country_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long country name" defaultValue="" key="false" length="0" name="country_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short postal code" defaultValue="" key="false" length="0" name="postal_code_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long postal code" defaultValue="" key="false" length="0" name="postal_code_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="location type" defaultValue="" key="false" length="0" name="location_type" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="partial match type" defaultValue="" key="false" length="0" name="partial_match" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="latitude" defaultValue="" key="false" length="20" name="lat" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+        <column comment="longitude" defaultValue="" key="false" length="20" name="lng" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+        <column comment="status" defaultValue="" key="false" length="0" name="status" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="international phone number" defaultValue="" key="false" length="0" name="international_phone_number" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="StandardizedPhoneNumber" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="IsValidPhoneNumber" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="IsPossiblePhoneNumber" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="IsAlreadyStandard" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="PhoneNumberType" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="ErrorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <connection connectorName="FLOW" label="Customers_SFDC" lineStyle="0" metaname="INPUT_1" offsetLabelX="0" offsetLabelY="0" source="INPUT_1" target="tGoogleAddressRow_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Customers_SFDC"/>
+    </connection>
+    <connection connectorName="FLOW" label="Cleansed_Addresses" lineStyle="0" metaname="tGoogleAddressRow_1" offsetLabelX="0" offsetLabelY="0" source="tGoogleAddressRow_1" target="tStandardizePhoneNumber_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Cleansed_Addresses"/>
+    </connection>
+    <connection connectorName="FLOW" label="Cleansed_Phone_Numbers" lineStyle="0" metaname="tStandardizePhoneNumber_1" offsetLabelX="0" offsetLabelY="0" source="tStandardizePhoneNumber_1" target="OUTPUT_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Cleansed_Phone_Numbers"/>
+    </connection>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="INPUT_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <jobletNodes componentName="INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="256" posY="224">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+      <metadata connector="FLOW" name="INPUT_1">
+        <column comment="" key="true" length="-1" name="Customer_ID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="50" name="Number" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="AccountNumber"/>
+        </column>
+        <column comment="" key="false" length="100" name="Name" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Name"/>
+        </column>
+        <column comment="" key="false" length="50" name="Industry" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Industry"/>
+        </column>
+        <column comment="" key="false" length="250" name="Full_Address" nullable="true" originalLength="250" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="BillingStreet"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Name" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Name"/>
+        </column>
+        <column comment="" key="false" length="50" name="Contact_Phone_Number" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Phone"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Email_Address" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Email"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Job_Title" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Title"/>
+        </column>
+      </metadata>
+    </jobletNodes>
+    <jobletNodes componentName="OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="960" posY="224">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="OUTPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="false"/>
+      <elementParameter field="CHECK" name="START" show="false" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+      <metadata connector="FLOW" name="OUTPUT_1">
+        <column comment="" key="true" length="-1" name="Customer_ID" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="50" name="Number" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="AccountNumber"/>
+        </column>
+        <column comment="" key="false" length="100" name="Name" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Name"/>
+        </column>
+        <column comment="" key="false" length="50" name="Industry" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Industry"/>
+        </column>
+        <column comment="" key="false" length="250" name="Full_Address" nullable="true" originalLength="250" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="BillingStreet"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Name" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Name"/>
+        </column>
+        <column comment="" key="false" length="50" name="Contact_Phone_Number" nullable="true" originalLength="50" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Phone"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Email_Address" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Email"/>
+        </column>
+        <column comment="" key="false" length="100" name="Contact_Job_Title" nullable="true" originalLength="100" pattern="" precision="-1" type="id_String" usefulColumn="true">
+          <additionalField key="AVRO_TECHNICAL_KEY" value="Title"/>
+        </column>
+        <column comment="not just postal addresses, but any way to geographically name a location" key="false" length="0" name="formatted_address" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short street number" key="false" length="0" name="street_number_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long street number" defaultValue="" key="false" length="0" name="street_number_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short route" defaultValue="" key="false" length="0" name="route_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long route" defaultValue="" key="false" length="0" name="route_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short locality" defaultValue="" key="false" length="0" name="locality_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long locality" defaultValue="" key="false" length="0" name="locality_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short sub locality" defaultValue="" key="false" length="0" name="sublocality_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long sub locality" defaultValue="" key="false" length="0" name="sublocality_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short admin area level 1" defaultValue="" key="false" length="0" name="adm_area1_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long admin area level 1" defaultValue="" key="false" length="0" name="adm_area1_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short admin area level 2" defaultValue="" key="false" length="0" name="adm_area2_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long admin area level 2" defaultValue="" key="false" length="0" name="adm_area2_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short admin area level 3" defaultValue="" key="false" length="0" name="adm_area3_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long admin area level 3" defaultValue="" key="false" length="0" name="adm_area3_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short country name" defaultValue="" key="false" length="0" name="country_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long country name" defaultValue="" key="false" length="0" name="country_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="short postal code" defaultValue="" key="false" length="0" name="postal_code_short" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="long postal code" defaultValue="" key="false" length="0" name="postal_code_long" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="location type" defaultValue="" key="false" length="0" name="location_type" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="partial match type" defaultValue="" key="false" length="0" name="partial_match" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="latitude" defaultValue="" key="false" length="20" name="lat" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+        <column comment="longitude" defaultValue="" key="false" length="20" name="lng" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Double" usefulColumn="true"/>
+        <column comment="status" defaultValue="" key="false" length="0" name="status" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="international phone number" defaultValue="" key="false" length="0" name="international_phone_number" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="StandardizedPhoneNumber" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="IsValidPhoneNumber" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="IsPossiblePhoneNumber" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="IsAlreadyStandard" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Boolean" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="PhoneNumberType" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="ErrorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </jobletNodes>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_40c8f11d-d6b5-466d-aa9d-b5a345d2f22c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>04ivUI8LJaTUZqYYI1p5z4eg9DhRiZvb2PLwTPYPB1RuDbrgyLMJr8KEFbFCpeqN246v5ImUMFPo&#13;
+x2wzpv8U9g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_76386d04-f2d6-434b-ba5f-05d3913a5e58"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4eJU36zG4qWy9cAN6LMj8ybrbyhP1M92YaSRYknimd4JVg38pxJFecgChkEv28mSCMgQECZUeIo0&#13;
+8qKpK5D+aw==</DigestValue></Reference></SignedInfo><SignatureValue>NE7i5CHFtFqKdgVcwj7AOWWpisXKLbXA0D1uW+4CsZtaL5Tstor+EVm8/sJ7H5s6UxQQhtX255TK&#13;
+lJnUC3lByMQJr3wkEtFJlC37TzlVwqBjUDmMv0XT/zT2bP+Ji/fQXGHQZcAmaDNgfylm6FCa8tGB&#13;
+XJxy252EruEYNtbTwnFdKrh9W3Gd0pgyKcKpeNjGqvjmWS6tx5Bl5/HEZhfg/01MaYIUSsGCPiTn&#13;
+29x/P0vOPdTSTFuP0kmD3vla1fNcyZI9ZdDCYkObZTIPM83EsqQTdX1Gza8yK8f0m9px7gXIXd4Y&#13;
+7XYBXAMgjRDl4QxSb3JGhLIvbqN+v+xudS9Wig==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM&#13;
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im&#13;
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k&#13;
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD&#13;
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg&#13;
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw&#13;
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq&#13;
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46&#13;
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb&#13;
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM&#13;
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE&#13;
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG&#13;
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu&#13;
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0&#13;
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ&#13;
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5&#13;
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ&#13;
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3&#13;
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn&#13;
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as&#13;
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s&#13;
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI&#13;
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c&#13;
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX&#13;
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_76386d04-f2d6-434b-ba5f-05d3913a5e58" Target="#_40c8f11d-d6b5-466d-aa9d-b5a345d2f22c"><Timestamp>2019-11-11 17:22:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

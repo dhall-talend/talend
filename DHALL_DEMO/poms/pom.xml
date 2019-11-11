@@ -15,6 +15,30 @@
     <module>jobs/joblets/twitter_0.1</module>
     <module>jobs/process/Self_Service/self_service_ds_resolutions_0.1</module>
     <module>jobs/joblets/marketing_leads_0.1</module>
+    <module>jobs/process_mr/presales_cdh_hdfs_0.1</module>
+    <module>jobs/process/SFDC_FullRefresh/job0_b00_clear_seed_sfdc_data_0.1</module>
+    <module>jobs/process/ESB/Data_Services/School_REST/setup_school_data_0.1</module>
+    <module>jobs/process/CSC/sample_job_2_0.1</module>
+    <module>jobs/process/SFDC_FullRefresh/job4_r00_create_orders_0.1</module>
+    <module>jobs/process/test_0.1</module>
+    <module>jobs/process/dockerdemo_0.1</module>
+    <module>jobs/process/SFDC_FullRefresh/job1_p00_create_products_0.1</module>
+    <module>jobs/process/SFDC_FullRefresh/job2_p01_update_product2_0.1</module>
+    <module>jobs/process/Dropbox/video_viewers_watch_results_log_filter_0.1</module>
+    <module>jobs/process/ESB/school_service_0.1</module>
+    <module>jobs/process/SFDC_FullRefresh/job0_a00_get_files_0.1</module>
+    <module>jobs/process/SF_Snowflake/load_dim_customer_0.1</module>
+    <module>jobs/process_mr/createrecommendationmodel_0.1</module>
+    <module>jobs/process/leads2_0.1</module>
+    <module>jobs/process/SF_Snowflake/demo_load_dim_products_0.1</module>
+    <module>jobs/process/SF_Snowflake/setup_generate_sales_0.1</module>
+    <module>jobs/process/SF_Snowflake/load_fact_sales_0.1</module>
+    <module>jobs/process/CSC/sample_job_0.1</module>
+    <module>jobs/process/CSC/extract_tables_to_csv_0.1</module>
+    <module>jobs/process/leads_0.1</module>
+    <module>jobs/joblets/cleanse_0.1</module>
+    <module>jobs/process/nicholasco_0.1</module>
+    <module>jobs/process/SFDC_FullRefresh/job3_a00_load_accnt_contact_sfdc_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DHALL_DEMO</talend.project.name>

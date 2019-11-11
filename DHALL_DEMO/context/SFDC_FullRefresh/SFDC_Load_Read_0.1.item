@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="cloud" xmi:id="_3LaEoQSnEeq7rpbPNIKmpQ">
+    <contextParameter comment="" name="connection_salesforce_basic_password" prompt="connection_salesforce_basic_password?" promptNeeded="false" type="id_Password" value="" xmi:id="_3LaEogSnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_basic_url" prompt="connection_salesforce_basic_url?" promptNeeded="false" type="id_String" value="" xmi:id="_3LaEowSnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_basic_username" prompt="connection_salesforce_basic_username?" promptNeeded="false" type="id_String" value="" xmi:id="_3LaEpASnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_apiVersion" prompt="connection_salesforce_apiVersion?" promptNeeded="false" type="id_String" value="" xmi:id="_3LaEpQSnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_password" prompt="connection_salesforce_password?" promptNeeded="false" type="id_Password" value="" xmi:id="_3LaEpgSnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_timeout" prompt="connection_salesforce_timeout?" promptNeeded="false" type="id_Integer" value="" xmi:id="_3LaEpwSnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_basic_security_token" prompt="connection_salesforce_basic_security_token?" promptNeeded="false" type="id_Password" value="" xmi:id="_3LaEqASnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="file_directory_location" prompt="file_directory_location?" promptNeeded="false" type="id_Directory" value="" xmi:id="_3LaEqQSnEeq7rpbPNIKmpQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_3LaEqgSnEeq7rpbPNIKmpQ">
+    <contextParameter comment="" name="connection_salesforce_basic_password" prompt="connection_salesforce_basic_password?" promptNeeded="false" type="id_Password" value="NyKfOfyCZeKwf8s3SiTgcQ==" xmi:id="_3LaEqwSnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_basic_url" prompt="connection_salesforce_basic_url?" promptNeeded="false" type="id_String" value="https://login.salesforce.com/services/Soap/u/42.0" xmi:id="_3LaErASnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_basic_username" prompt="connection_salesforce_basic_username?" promptNeeded="false" type="id_String" value="dhall711@gmail.net" xmi:id="_3LaErQSnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_apiVersion" prompt="connection_salesforce_apiVersion?" promptNeeded="false" type="id_String" value="39.0" xmi:id="_3LaErgSnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_password" prompt="connection_salesforce_password?" promptNeeded="false" type="id_Password" value="NyKfOfyCZeKwf8s3SiTgcQ==" xmi:id="_3LaErwSnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_timeout" prompt="connection_salesforce_timeout?" promptNeeded="false" type="id_Integer" value="60000" xmi:id="_3LaEsASnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="connection_salesforce_basic_security_token" prompt="connection_salesforce_basic_security_token?" promptNeeded="false" type="id_Password" value="kwsogyaGTgngDMTR/tuVKpO4f7siDIyiVRASwIWUANc=" xmi:id="_3LaEsQSnEeq7rpbPNIKmpQ"/>
+    <contextParameter comment="" name="file_directory_location" prompt="file_directory_location?" promptNeeded="false" type="id_Directory" value="C:/DemoBankData/FullSalesforceSetup/" xmi:id="_3LaEsgSnEeq7rpbPNIKmpQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_84a2d17c-1f2b-4f33-a971-33e158003eb6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mFuvvtlusevJOBySTRvF4NAQBAyQpR9QMTe/W/T4plctoQ+EoLDai+2qMu7JiDVfzwKLm59c+6FD&#13;
+bIIqxlVEKA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bc654aba-31ee-457c-8922-0465378dafd5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tPTnyqtkf9Moj+YfYgfUkm7OfugNaT05/uxwAP7QNijOjcfS3728pV6d41uAqS4oiZaFlM8PNZ0x&#13;
+/j1iwyjtSg==</DigestValue></Reference></SignedInfo><SignatureValue>QpLPbI3uEvJxkKVNKHdatCTE3zUC8BiarEGMHtb11WXhr8pcPmK48glF777u3+gI24UWeqFL86Kn&#13;
+8/QDPKI0ZMHqcJudtpVhI5mndQGyFAtt+qZNZPElHK8fUkFqpoXsPdzk10fpgQpARuqSVB11hrv5&#13;
+S6PErN2PJi7VgGsKzg6xYFCuiz1H/UUqZg16Mah9cJiKCAw+EV2Io4KTth4YWteCQ4kWY3Mzw1l9&#13;
+rNCfuZr69YwzjJmTQV4ixArCE3ex7pdLOgCJKgU33B0R3WTLGoDahlzvmQldE1yrJ18SXeRxh13E&#13;
+mfFkaqZSMQmbEkn5xTXql6T1qodueZNX9wkSkA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM&#13;
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im&#13;
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k&#13;
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD&#13;
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg&#13;
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw&#13;
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq&#13;
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46&#13;
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb&#13;
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM&#13;
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE&#13;
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG&#13;
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu&#13;
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0&#13;
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ&#13;
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5&#13;
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ&#13;
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3&#13;
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn&#13;
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as&#13;
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s&#13;
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI&#13;
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c&#13;
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX&#13;
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bc654aba-31ee-457c-8922-0465378dafd5" Target="#_84a2d17c-1f2b-4f33-a971-33e158003eb6"><Timestamp>2019-11-11 17:22:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,100 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "No description",
+    "version" : "1.0.0",
+    "title" : "school"
+  },
+  "host" : "7fe2ssj.us.api-mocks.com",
+  "schemes" : [ "https" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/school/" : {
+      "get" : {
+        "summary" : "Get All School",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Success",
+            "schema" : {
+              "type" : "object",
+              "description" : "{  \n   \"school\":[\n     { \"school_id\":    234,\n   \"schoolName\": \"Newman High School\",\n   \"faculty\": 56,\n   \"studentBody\":  78,\n   \"startingGrade\": 9,\n   \"endGrade\": 12,\n   \"principal\": \"Fr Joe Smint\",\n   \"city\": \"Mason City\",\n   \"state\": \"IA\",\n   \"postalCode\": \"50401\"\n},\n     { \"school_id\":    235,\n   \"schoolName\": \"BBB High School\",\n   \"faculty\": 56,\n   \"studentBody\":  78,\n   \"startingGrade\": 9,\n   \"endGrade\": 12,\n   \"principal\": \"Fr Joe Smint\",\n   \"city\": \"Mason City\",\n   \"state\": \"IA\",\n   \"postalCode\": \"50401\"\n},\n     { \"school_id\":    236,\n   \"schoolName\": \"AAA High School\",\n   \"faculty\": 56,\n   \"studentBody\":  78,\n   \"startingGrade\": 9,\n   \"endGrade\": 12,\n   \"principal\": \"Fr Joe Smint\",\n   \"city\": \"Mason City\",\n   \"state\": \"IA\",\n   \"postalCode\": \"50401\"\n}\n]\n}\n",
+              "properties" : { }
+            }
+          },
+          "404" : {
+            "description" : "Can't Find Any Schools"
+          }
+        }
+      },
+      "post" : {
+        "summary" : "Add New School",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ ]
+    },
+    "/school/{id}/" : {
+      "get" : {
+        "summary" : "Get School by ID",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "Success"
+          },
+          "404" : {
+            "description" : "No School"
+          }
+        }
+      },
+      "parameters" : [ {
+        "name" : "id",
+        "in" : "path",
+        "required" : true,
+        "type" : "string"
+      } ]
+    }
+  },
+  "definitions" : {
+    "school" : {
+      "type" : "object",
+      "properties" : {
+        "school_id" : {
+          "type" : "number"
+        },
+        "schoolName" : {
+          "type" : "string"
+        },
+        "faculty" : {
+          "type" : "number"
+        },
+        "studentBody" : {
+          "type" : "number"
+        },
+        "startingGrade" : {
+          "type" : "number"
+        },
+        "endGrade" : {
+          "type" : "number"
+        },
+        "principal" : {
+          "type" : "string"
+        },
+        "city" : {
+          "type" : "string"
+        },
+        "state" : {
+          "type" : "string"
+        },
+        "postalCode" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}
