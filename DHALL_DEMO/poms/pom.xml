@@ -39,6 +39,7 @@
     <module>jobs/joblets/cleanse_0.1</module>
     <module>jobs/process/nicholasco_0.1</module>
     <module>jobs/process/SFDC_FullRefresh/job3_a00_load_accnt_contact_sfdc_0.1</module>
+    <module>jobs/process_mr/movierecommendation_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
